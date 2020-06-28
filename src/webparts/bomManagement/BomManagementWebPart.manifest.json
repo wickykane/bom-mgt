@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "c3b1f05d-b999-4f95-8960-2400613ad70f",
+  "alias": "BomManagementWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": {
+      "default": "Other"
+    },
+    "title": {
+      "default": "BOM Management"
+    },
+    "description": {
+      "default": "Module to Manage BOM"
+    },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Module to Manage BOM"
+    }
+  }]
+}
